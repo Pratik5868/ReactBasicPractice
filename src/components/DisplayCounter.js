@@ -1,4 +1,6 @@
 import React from "react";
+
+//Display counter application
 class DisplayCounter extends React.Component{
     
     constructor(){

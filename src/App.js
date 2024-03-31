@@ -1,15 +1,14 @@
-
-// Second App :Counter App: Build a counter application with 
-//buttons to increment and decrement the count.
-
-import DisplayCounter from "./components/DisplayCounter";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
-
+import UserInputForm from "./components2/UserInputForm";
+//Real-time Input: Create a form that captures user 
+//input and displays it in real-time as the user
+//types.
 function App() {
   return (
     <div>
       <Header/>
-       <DisplayCounter/>
+       <UserInputForm/>
        
     </div>
       
