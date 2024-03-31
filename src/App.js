@@ -1,10 +1,11 @@
 
-import './App.css';
+// First React program to display 'Hello world'
 
 function App() {
   return (
     <div>
-
+       
+       <h1>Hello world</h1>
 
     </div>
       
